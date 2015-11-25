@@ -10,7 +10,7 @@ import tornado.httpserver
 from application import application
 
 from tornado.options import define,options
-define("port",default=8888,help="run on th given port",type=int)
+define("port",default=8888,help="run on the given port",type=int)
 
 def main():
     tornado.options.parse_command_line()
