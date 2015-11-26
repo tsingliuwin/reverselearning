@@ -17,9 +17,16 @@
         <button id="ok">OK</button>
     </div>
     <script src="{{static_url('js/jquery.wmd.min.js')}}"></script> 
-    <script type="text/javascript">
+    
+{% end %}
+
+{% block js %}
+<script type="text/javascript">
         $().ready(function() {
             $("#wmd-input").wmd();                             
         });
+		$("#ok").click(function(){
+			alert($("#wmd-input").val())
+		})
     </script>
 {% end %}
