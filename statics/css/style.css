@@ -2,3 +2,11 @@
 body {
     color: red;
 }
+h2{
+	text-align:center;}
+.login{
+	width:25%;
+	margin:0 auto;}
+footer{
+	width:25%;
+	margin:0 auto;}
